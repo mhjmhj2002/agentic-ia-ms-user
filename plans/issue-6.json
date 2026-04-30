@@ -1,0 +1,40 @@
+{
+  "steps": [
+    {
+      "id": 1,
+      "type": "controller",
+      "name": "PedidoController",
+      "description": "Create POST /pedido endpoint to include id, descricao, and valor total"
+    },
+    {
+      "id": 2,
+      "type": "service",
+      "name": "PedidoService",
+      "description": "Implement business logic for creating a new Pedido"
+    },
+    {
+      "id": 3,
+      "type": "repository",
+      "name": "PedidoRepository",
+      "description": "Define JpaRepository interface for Pedido entity"
+    },
+    {
+      "id": 4,
+      "type": "entity",
+      "name": "Pedido",
+      "description": "Create Pedido entity with fields id, descricao, and valor total"
+    },
+    {
+      "id": 5,
+      "type": "other",
+      "name": "PedidoValidator",
+      "description": "Implement validation for incoming Pedido data"
+    },
+    {
+      "id": 6,
+      "type": "other",
+      "name": "PedidoControllerTest",
+      "description": "Create unit tests for PedidoController"
+    }
+  ]
+}
